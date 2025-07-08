@@ -18,7 +18,9 @@
 .bg-primary-400{
     background-color: var(--primary-400);
 }
-
+.bg-neutral-900{
+    background-color: var(--neutral-900);
+}
 
 /* 文字顏色 */
 
@@ -79,15 +81,25 @@
 .c-neutral-900{
     color: var(--neutral-900);
 }
+.c-function-300{
+    color: #D74F4F;
+}
 
 /* Typography規格 */
 .tw-h1,.tw-h2,.tw-h3,.tw-h4,.tw-h5,.tw-h6{
     line-height: 1.2;
     letter-spacing: 0.05em;
+    font-weight: bold;
 }
 .tw-lb-lg,.tw-lb-md,.tw-lb-sm,.tw-lb-xs,.tw-pa-lg,.tw-pa-md,.tw-pa-sm,.tw-pa-xs{
     line-height: 1.5;
     letter-spacing: 0.05em;
+}
+.tw-lb-lg,.tw-lb-md,.tw-lb-sm,.tw-lb-xs{
+    font-weight: 500;
+}
+.tw-pa-lg,.tw-pa-md,.tw-pa-sm,.tw-pa-xs{
+    font-weight: 400;
 }
 .tw-h1{
     font-size: 40px;
@@ -141,6 +153,62 @@
     .gap-6xl{gap: var(--sp-6xl);}
     .gap-xs{gap: var(--sp-xs);}
     .gap-xxs{gap: var(--sp-xxs);}
+
+/* 推移用 */
+.my-24{
+    margin: 24px 0;
+}
+.pd-12{
+    padding: 12px;
+}
+.py-4{
+    padding: 4px 0;
+}
+.py-7{
+    padding: 7px 0;
+}
+.py-8{
+    padding: 8px 0;
+}
+.py-9{
+    padding: 9.5px 0;
+}
+.py-12{
+    padding: 12px 0;
+}
+.py-24{
+    padding: 24px 0;
+}
+.py-64{
+    padding: 64px 0;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+.mb-8{
+    margin-bottom: 8px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+.mb-88{
+    margin-bottom: 88px;
+}
+.mr-8{
+    margin-right: 8px;
+}
 
 /* radius */
 .bd-rad-sm{
