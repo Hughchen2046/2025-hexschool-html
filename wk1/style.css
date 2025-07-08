@@ -122,4 +122,8 @@ p,ul,span{
 .underline{
     text-decoration: underline;
     margin-left: 4px;
+    text-underline-offset: 8px;
+}
+.story-link{
+    color: rgba(87, 162, 3, 1);
 }
