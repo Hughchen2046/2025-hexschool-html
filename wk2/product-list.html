@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="zh-TW">
     <link rel="stylesheet" href="../reset.css">
@@ -9,72 +10,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product-list</title>
 </head>
+
 <body>
-   <header class="container">
+    <header class="container">
         <div class="nav d-flex jcsb mb-32">
             <div class="logo-link d-flex jcsb gap-3xl">
-                <a href="/wk1/index.html"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/logo.svg" alt="logo-urbnstep"></a>
+                <a href="/wk1/index.html"><img
+                        src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/logo.svg"
+                        alt="logo-urbnstep"></a>
                 <div class="link d-flex gap-2xl tw-lb-md">
                     <a href="/wk2/product-list.html">商品列表</a>
                     <a href="/wk1/index.html">品牌故事</a>
                 </div>
-                
+
             </div>
             <a href="#"><i class="bi bi-person account c-neutral-900"></i></a>
         </div>
-   </header>
-   <main class="container">
-    <!-- 麵包屑列表 -->
-     <nav>
-        <ol class="d-flex">
-            <li class="Breadcrumb-item"><a href="/wk1/index.html" class="c-neutral-600">首頁</a></li>
-            <li class="Breadcrumb-item"><a href="/wk2/product-list.html">所有商品</a></li>
-        </ol>
-     </nav>
-    <h3 class="tw-h3 my-24 py-7">所有商品</h3>
+    </header>
+    <main class="container">
+        <!-- 麵包屑列表 -->
+        <nav>
+            <ol class="d-flex">
+                <li class="Breadcrumb-item"><a href="/wk1/index.html" class="c-neutral-600">首頁</a></li>
+                <li class="Breadcrumb-item"><a href="/wk2/product-list.html">所有商品</a></li>
+            </ol>
+        </nav>
+        <h3 class="tw-h3 my-24 py-7">所有商品</h3>
 
-    <div class="row d-flex mb-48">
-        <!-- 商品分類頁 -->
-        <ul class="menu col-2 tw-lb-md">
-            <li class="py-12 mb-16"><a href="#" class="c-primary-400">所有商品</a></li>
-            <li class="py-12 mb-16"><a href="#">慢跑鞋</a></li>
-            <li class="py-12 mb-16"><a href="#">滑板鞋</a></li>
-            <li class="py-12 mb-16"><a href="#">厚底鞋</a></li>
-            <li class="py-12"><a href="#">限定 / 聯名企劃</a></li>
-        </ul>
-        <!-- 產品圖片列表 -->
-        <div class="prod-list col-10 mb-32">        
-            <ul class="d-flex f-wrap gap-l">
-                <li class="list-width mb-24 img-hover">
-                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">PLATFORM 404</h5>            
-                    <p class="tw-lb-md">NT$2,600</p></div></li>
-                <li class="list-width mb-24 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">PLATFORM 404</h5>            
-                    <p class="tw-lb-md">NT$2,600</p></div></li>
-                <li class="list-width mb-24 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">VM001</h5>            
-                    <p class="tw-lb-md">NT$2,600</p></div></li>     
-                <li class="list-width mb-24 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">Melty Kiss</h5>            
-                    <p class="tw-lb-md">NT$4,000</p></div></li>
-                <li class="list-width mb-24 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">BOOMBLOK</h5>            
-                    <p class="tw-lb-md">NT$3,200</p></div></li>
-                <li class="list-width mb-24 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">BOOMBLOK</h5>            
-                    <p class="tw-lb-md">NT$3,200</p></div></li>   
-                <li class="list-width mb-48 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">R:UNER</h5>            
-                    <p class="tw-lb-md">NT$4,000</p></div></li>
-                <li class="list-width mb-48 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">Sugar Snap</h5>            
-                    <p class="tw-lb-md">NT$4,000</p></div></li>
-                <li class="list-width mb-48 img-hover"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true" alt="" class="mb-12"><div class="prod-info">
-                    <h5 class="tw-h6">Neofoam</h5>            
-                    <p class="tw-lb-md">NT$4,000</p></div></li>                                           
+        <div class="row d-flex mb-48">
+            <!-- 商品分類頁 -->
+            <ul class="menu col-2 tw-lb-md">
+                <li class="py-12 mb-16"><a href="#" class="c-primary-400">所有商品</a></li>
+                <li class="py-12 mb-16"><a href="#">慢跑鞋</a></li>
+                <li class="py-12 mb-16"><a href="#">滑板鞋</a></li>
+                <li class="py-12 mb-16"><a href="#">厚底鞋</a></li>
+                <li class="py-12"><a href="#">限定 / 聯名企劃</a></li>
             </ul>
-        <!-- Page navigation -->
+            <!-- 產品圖片列表 -->
+            <div class="prod-list col-10 mb-32">
+                <ul class="d-flex f-wrap gap-l">
+                    <li class="list-width mb-24 img-hover"><a href="/wk2/product-info1.html">
+                            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product.png?raw=true"
+                                alt="" class="mb-12"></a>
+                            <div class="prod-info">
+                        
+                        <h5 class="tw-h6">PLATFORM 404</h5>
+                        <p class="tw-lb-md">NT$2,600</p>
+            </div>
+            </li>
+            <li class="list-width mb-24 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-1.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">PLATFORM 404</h5>
+                    <p class="tw-lb-md">NT$2,600</p>
+                </div>
+            </li>
+            <li class="list-width mb-24 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-2.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">VM001</h5>
+                    <p class="tw-lb-md">NT$2,600</p>
+                </div>
+            </li>
+            <li class="list-width mb-24 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-3.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">Melty Kiss</h5>
+                    <p class="tw-lb-md">NT$4,000</p>
+                </div>
+            </li>
+            <li class="list-width mb-24 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-4.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">BOOMBLOK</h5>
+                    <p class="tw-lb-md">NT$3,200</p>
+                </div>
+            </li>
+            <li class="list-width mb-24 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-5.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">BOOMBLOK</h5>
+                    <p class="tw-lb-md">NT$3,200</p>
+                </div>
+            </li>
+            <li class="list-width mb-48 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-6.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">R:UNER</h5>
+                    <p class="tw-lb-md">NT$4,000</p>
+                </div>
+            </li>
+            <li class="list-width mb-48 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-7.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">Sugar Snap</h5>
+                    <p class="tw-lb-md">NT$4,000</p>
+                </div>
+            </li>
+            <li class="list-width mb-48 img-hover"><a href="/wk2/product-info1.html"><img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week2/product-8.png?raw=true"
+                    alt="" class="mb-12"></a>
+                <div class="prod-info">
+                    <h5 class="tw-h6">Neofoam</h5>
+                    <p class="tw-lb-md">NT$4,000</p>
+                </div>
+            </li>
+            </ul>
+            <!-- Page navigation -->
             <ul class="d-flex page-navi gap-s c-neutral-900">
                 <li class="pd-12"><a href="#"><i class="bi bi-chevron-left"></i></a></li>
                 <li class="tw-lb-md bg-primary-300"><a href="#">1</a></li>
@@ -85,24 +134,28 @@
                 <li class="pd-12"><a href="#"><i class="bi bi-chevron-right"></i></a></li>
             </ul>
         </div>
-   </main>
-   <!-- 加入會員 -->
-   <section class="join-member d-flex gap-l py-24 bg-primary-200">
+    </main>
+    <!-- 加入會員 -->
+    <section class="join-member d-flex gap-l py-24 bg-primary-200">
         <h4 class="tw-h4">加入會員取得 9 折優惠</h4>
-        <button type="button" class="btn bg-neutral-900 bd-rad-sm"><a href="" class="tw-lb-md c-neutral-000">馬上註冊</a></button>    
-   </section>
-   <footer class="container py-64">
-    <nav class="footer-nav d-flex mb-24">
-        <a href="#"><img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/logo.svg" alt="URBNSTEP-LOGO"></a>
-        <div class="footer-link d-flex gap-2xl tw-lb-md">
-            <a href="/wk2/product-list.html">商品列表</a>
-            <a href="/wk1/index.html">品牌故事</a>
+        <button type="button" class="btn bg-neutral-900 bd-rad-sm"><a href=""
+                class="tw-lb-md c-neutral-000">馬上註冊</a></button>
+    </section>
+    <footer class="container py-64">
+        <nav class="footer-nav d-flex mb-24">
+            <a href="#"><img
+                    src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/e1ad10bd2260f80c5f65be5bfc5042790a261115/2025-week1/logo.svg"
+                    alt="URBNSTEP-LOGO"></a>
+            <div class="footer-link d-flex gap-2xl tw-lb-md">
+                <a href="/wk2/product-list.html">商品列表</a>
+                <a href="/wk1/index.html">品牌故事</a>
+            </div>
+        </nav>
+        <div class="footer-text tw-pa-sm c-neutral-600">
+            <p class="mb-4">Copyright ©2025 URBNSTYLE</p>
+            <p>All Rights Reserved.</p>
         </div>
-    </nav>
-    <div class="footer-text tw-pa-sm c-neutral-600">
-        <p class="mb-4">Copyright ©2025 URBNSTYLE</p>
-        <p>All Rights Reserved.</p>
-    </div>
-   </footer>
+    </footer>
 </body>
+
 </html>
